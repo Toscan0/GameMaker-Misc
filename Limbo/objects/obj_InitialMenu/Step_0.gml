@@ -4,7 +4,6 @@ if(menu_control)
 {
 	if(keyboard_check_pressed(vk_up))
 	{
-			SlideTransition(TRANS_MODE.RESTART);
 			menu_cursor++;
 			if(menu_cursor >= array_length_1d(menu))
 			{
@@ -32,7 +31,7 @@ if(menu_committed != -1)
 	switch(menu_committed)
 	{
 		case 1:
-			//SlideTransition(TRANS_MODE.NEXT);
+			SlideTransition(TRANS_MODE.NEXT);
 			break;
 		case 0:
 			game_end();
