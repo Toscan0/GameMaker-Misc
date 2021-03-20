@@ -16,7 +16,8 @@
     {"spriteId":{"name":"sptr_Grain","path":"sprites/sptr_Grain/sptr_Grain.yy",},"colour":4294967295,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":true,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":0,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Grain","tags":[],"resourceType":"GMRBackgroundLayer",},
     {"spriteId":{"name":"sptr_Clouds","path":"sprites/sptr_Clouds/sptr_Clouds.yy",},"colour":4294967295,"x":0,"y":-270,"htiled":true,"vtiled":false,"hspeed":1.0,"vspeed":0.0,"stretch":false,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":100,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Clouds","tags":[],"resourceType":"GMRBackgroundLayer",},
     {"instances":[
-        {"properties":[],"isDnd":false,"objectId":{"name":"obj_InitialMenu","path":"objects/obj_InitialMenu/obj_InitialMenu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":448.0,"resourceVersion":"1.0","name":"inst_26744C47","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_InitialMenu","path":"objects/obj_InitialMenu/obj_InitialMenu.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":192.0,"resourceVersion":"1.0","name":"inst_26744C47","tags":[],"resourceType":"GMRInstance",},
+        {"properties":[],"isDnd":false,"objectId":{"name":"obj_Transition","path":"objects/obj_Transition/obj_Transition.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":640.0,"y":192.0,"resourceVersion":"1.0","name":"inst_4D548B53","tags":[],"resourceType":"GMRInstance",},
       ],"visible":true,"depth":200,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Instances","tags":[],"resourceType":"GMRInstanceLayer",},
     {"spriteId":{"name":"sptr_Background","path":"sprites/sptr_Background/sptr_Background.yy",},"colour":4284879104,"x":0,"y":0,"htiled":false,"vtiled":false,"hspeed":0.0,"vspeed":0.0,"stretch":true,"animationFPS":30.0,"animationSpeedType":0,"userdefinedAnimFPS":false,"visible":true,"depth":300,"userdefinedDepth":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"gridX":32,"gridY":32,"layers":[],"hierarchyFrozen":false,"resourceVersion":"1.0","name":"Background","tags":[],"resourceType":"GMRBackgroundLayer",},
   ],
@@ -25,6 +26,7 @@
   "inheritCode": false,
   "instanceCreationOrder": [
     {"name":"inst_26744C47","path":"rooms/rooom_InitialMenu/rooom_InitialMenu.yy",},
+    {"name":"inst_4D548B53","path":"rooms/rooom_InitialMenu/rooom_InitialMenu.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,
