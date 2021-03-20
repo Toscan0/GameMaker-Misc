@@ -2,10 +2,18 @@
 
 
 // --- Get player input  ---
-key_left = keyboard_check(vk_left);
-key_right = keyboard_check(vk_right);
-key_jump = keyboard_check_pressed(vk_up);
-
+if(canMove)
+{
+	key_left = keyboard_check(vk_left);
+	key_right = keyboard_check(vk_right);
+	key_jump = keyboard_check_pressed(vk_up);
+}
+else
+{
+	key_left = 0;
+	key_right = 0;
+	key_jump = 0;
+}
 
 // --- Calculate movement ---
 // Horizontal Move

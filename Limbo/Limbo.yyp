@@ -2,8 +2,11 @@
   "resources": [
     {"id":{"name":"sptr_Clouds","path":"sprites/sptr_Clouds/sptr_Clouds.yy",},"order":2,},
     {"id":{"name":"obj_Transition","path":"objects/obj_Transition/obj_Transition.yy",},"order":4,},
+    {"id":{"name":"Room2","path":"rooms/Room2/Room2.yy",},"order":2,},
+    {"id":{"name":"sptr_Trigger","path":"sprites/sptr_Trigger/sptr_Trigger.yy",},"order":9,},
     {"id":{"name":"sptr_Walls","path":"sprites/sptr_Walls/sptr_Walls.yy",},"order":6,},
     {"id":{"name":"rooom_InitialMenu","path":"rooms/rooom_InitialMenu/rooom_InitialMenu.yy",},"order":1,},
+    {"id":{"name":"obj_loadNextLevel","path":"objects/obj_loadNextLevel/obj_loadNextLevel.yy",},"order":5,},
     {"id":{"name":"SlideTransition","path":"scripts/SlideTransition/SlideTransition.yy",},"order":0,},
     {"id":{"name":"obj_InitialMenu","path":"objects/obj_InitialMenu/obj_InitialMenu.yy",},"order":3,},
     {"id":{"name":"sptr_InvisibleWall","path":"sprites/sptr_InvisibleWall/sptr_InvisibleWall.yy",},"order":7,},
@@ -34,6 +37,7 @@
   "RoomOrderNodes": [
     {"roomId":{"name":"rooom_InitialMenu","path":"rooms/rooom_InitialMenu/rooom_InitialMenu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
