@@ -1,11 +1,14 @@
 {
   "spriteId": {
-    "name": "sptr_Player",
-    "path": "sprites/sptr_Player/sptr_Player.yy",
+    "name": "sptr_Player_Iddle",
+    "path": "sprites/sptr_Player_Iddle/sptr_Player_Iddle.yy",
   },
   "solid": false,
   "visible": true,
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "sptr_Player",
+    "path": "sprites/sptr_Player/sptr_Player.yy",
+  },
   "persistent": false,
   "parentObjectId": null,
   "physicsObject": false,

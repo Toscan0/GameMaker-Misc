@@ -4,6 +4,7 @@
     {"id":{"name":"sptr_Player_Jump","path":"sprites/sptr_Player_Jump/sptr_Player_Jump.yy",},"order":5,},
     {"id":{"name":"sptr_Walls","path":"sprites/sptr_Walls/sptr_Walls.yy",},"order":7,},
     {"id":{"name":"sptr_InvisbleWall","path":"sprites/sptr_InvisbleWall/sptr_InvisbleWall.yy",},"order":2,},
+    {"id":{"name":"tile_Walls","path":"tilesets/tile_Walls/tile_Walls.yy",},"order":0,},
     {"id":{"name":"sptr_Clouds","path":"sprites/sptr_Clouds/sptr_Clouds.yy",},"order":8,},
     {"id":{"name":"obj_Wall","path":"objects/obj_Wall/obj_Wall.yy",},"order":1,},
     {"id":{"name":"sptr_Player","path":"sprites/sptr_Player/sptr_Player.yy",},"order":1,},
