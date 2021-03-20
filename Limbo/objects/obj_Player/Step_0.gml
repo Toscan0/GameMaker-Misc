@@ -71,8 +71,12 @@ if(!place_meeting(x, y + 1, obj_InvisibleWall))
 }
 else
 {
-	image_speed = 1;
+	if(sprite_index == sptr_Player_Jump)
+	{
+		audio_play_sound(sound_Landing, 5, false);	
+	}
 	
+	image_speed = 1;
 	if(horizontalSpeed == 0)
 	{
 		sprite_index = sptr_Player_Idle;
