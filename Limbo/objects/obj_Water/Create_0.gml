@@ -2,7 +2,8 @@
 
 bodyX = x;				// top-left x-pos
 bodyY = y;				// top-right y-pos
-bodyWidth = sprite_width;		// hor span of body
+myW = sprite_width;
+bodyWidth = myW;		// hor span of body
 bodyHeight = sprite_height;		// vert span of body
 
 columns = 15;			// springs

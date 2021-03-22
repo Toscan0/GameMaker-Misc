@@ -38,6 +38,14 @@ if(place_meeting(x + horizontalSpeed, y, obj_InvisibleWall))
 	}
 	horizontalSpeed = 0;
 }
+if(place_meeting(x + horizontalSpeed, y, obj_wood))
+{
+	while (!place_meeting(x + sign(horizontalSpeed), y, obj_wood))
+	{
+		x = x + sign(horizontalSpeed);
+	}
+	horizontalSpeed = 0;
+}
 x = x + horizontalSpeed;
 
 // Vertical collision
@@ -49,6 +57,15 @@ if(place_meeting(x, y + verticalSpeed, obj_InvisibleWall))
 	}
 	verticalSpeed = 0;
 }
+if(place_meeting(x, y + verticalSpeed, obj_wood))
+{
+	while (!place_meeting(x, y + sign(verticalSpeed), obj_wood))
+	{
+		y = y + sign(verticalSpeed);
+	}
+	verticalSpeed = 0;
+}
+
 y = y + verticalSpeed;
 
 
