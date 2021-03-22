@@ -13,8 +13,11 @@
     {"id":{"name":"obj_InitialMenu","path":"objects/obj_InitialMenu/obj_InitialMenu.yy",},"order":3,},
     {"id":{"name":"sound_BK1","path":"sounds/sound_BK1/sound_BK1.yy",},"order":3,},
     {"id":{"name":"sptr_InvisibleWall","path":"sprites/sptr_InvisibleWall/sptr_InvisibleWall.yy",},"order":7,},
+    {"id":{"name":"sptr_water","path":"sprites/sptr_water/sptr_water.yy",},"order":10,},
     {"id":{"name":"sptr_Player_Walk","path":"sprites/sptr_Player_Walk/sptr_Player_Walk.yy",},"order":5,},
     {"id":{"name":"sptr_Player","path":"sprites/sptr_Player/sptr_Player.yy",},"order":0,},
+    {"id":{"name":"obj_Water","path":"objects/obj_Water/obj_Water.yy",},"order":7,},
+    {"id":{"name":"ColumnCorners","path":"scripts/ColumnCorners/ColumnCorners.yy",},"order":1,},
     {"id":{"name":"obj_InvisibleWall","path":"objects/obj_InvisibleWall/obj_InvisibleWall.yy",},"order":0,},
     {"id":{"name":"obj_Player","path":"objects/obj_Player/obj_Player.yy",},"order":1,},
     {"id":{"name":"font_Menu","path":"fonts/font_Menu/font_Menu.yy",},"order":0,},
@@ -40,9 +43,9 @@
     "children": [],
   },
   "RoomOrderNodes": [
+    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
     {"roomId":{"name":"rooom_InitialMenu","path":"rooms/rooom_InitialMenu/rooom_InitialMenu.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
-    {"roomId":{"name":"Room2","path":"rooms/Room2/Room2.yy",},},
   ],
   "Folders": [
     {"folderPath":"folders/Sprites.yy","order":1,"resourceVersion":"1.0","name":"Sprites","tags":[],"resourceType":"GMFolder",},
